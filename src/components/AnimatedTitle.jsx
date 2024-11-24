@@ -13,7 +13,7 @@ useEffect(()=>{
                 trigger: containerRef.current,
                 start: '100 bottom',
                 end: 'center bottom',
-                markers: true,
+                // markers: true,
                 toggleActions: 'play none none reverse'
             }
         })

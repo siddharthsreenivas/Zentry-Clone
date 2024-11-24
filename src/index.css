@@ -148,7 +148,7 @@ body {
 }
 
 .indicator-line.active {
-  animation: indicator-line 0.5s ease infinite;
+  animation: indicator-line 1s ease infinite;
   animation-delay: calc(var(--animation-order) * 0.1s);
 }
 
