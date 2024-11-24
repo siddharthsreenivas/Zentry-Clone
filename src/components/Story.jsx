@@ -30,13 +30,14 @@ const Story = () => {
     const centerX = rect.width / 2
     const centerY = rect.height / 2
 
-    const rotateX = ((y - centerY) / centerY) * -10
-    const rotateY = ((x - centerX) / centerX) * 10
+    const rotateX = ((y - centerY) / centerY) * -5
+    const rotateY = ((x - centerX) / centerX) * 5
 
     gsap.to(element, {
         duration: 0.3,
-        rotateX, rotateY,
-        trasformPerspective: 500,
+        rotateX: ((y - centerY) ) * -0.9,
+         rotateY: ((x - centerX) ) * 0.9,
+        // trasformPerspective: 500,
         ease: 'power1.inOut'
     })
 
